@@ -1,5 +1,5 @@
 # Build code
-FROM node:11-alpine
+FROM node:14
 
 # Install fresh packages, neat trick:
 # Create new layer, to make sure that changing a code doesn't require installing node modules again
